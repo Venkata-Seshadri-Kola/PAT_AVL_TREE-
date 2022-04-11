@@ -164,25 +164,25 @@ public class AVLTree_ESTest extends AVLTree_ESTest_scaffolding {
       }
   }
 
-//  @Test(timeout = 4000)
-//  public void test08()  throws Throwable  {
-//      AVLTree aVLTree0 = new AVLTree();
-//      aVLTree0.insert((-1959));
-//      AVLTree.Node aVLTree_Node0 = aVLTree0.getRoot();
-//      AVLTree.Node aVLTree_Node1 = aVLTree0.new Node(0);
-//      aVLTree_Node0.left = aVLTree_Node1;
-//      aVLTree0.delete(2074);
-//      aVLTree0.delete(2074);
-//      aVLTree_Node1.height = 0;
-//      aVLTree_Node1.left = aVLTree_Node0.left;
-//      aVLTree0.delete(1);
-//      aVLTree_Node0.left.height = 2074;
-//      aVLTree0.delete(0);
-//      aVLTree0.getBalance(aVLTree_Node0);
-//      aVLTree0.delete(0);
-//      int int0 = (-1056);
-//      aVLTree0.insert(int0);
-//  }
+  @Test(timeout = 4000)
+  public void test08()  throws Throwable  {
+      AVLTree aVLTree0 = new AVLTree();
+      aVLTree0.insert((-1959));
+      AVLTree.Node aVLTree_Node0 = aVLTree0.getRoot();
+      AVLTree.Node aVLTree_Node1 = aVLTree0.new Node(0);
+      aVLTree_Node0.left = aVLTree_Node1;
+      aVLTree0.delete(2074);
+      aVLTree0.delete(2074);
+      aVLTree_Node1.height = 0;
+      aVLTree_Node1.left = aVLTree_Node0.left;
+      aVLTree0.delete(1);
+      aVLTree_Node0.left.height = 2074;
+      aVLTree0.delete(0);
+      aVLTree0.getBalance(aVLTree_Node0);
+      aVLTree0.delete(0);
+      int int0 = (-1056);
+      aVLTree0.insert(int0);
+  }
 
   @Test(timeout = 4000)
   public void test09()  throws Throwable  {
