@@ -7,7 +7,6 @@
   
 <dependencies>
 
-
 <dependency>
   <groupId>org.apache.struts</groupId>
   <artifactId>struts2-core</artifactId>
@@ -20,9 +19,6 @@
   </exclusions>
 </dependency>
 
-
-
-<!-- https://mvnrepository.com/artifact/org.evosuite/evosuite-standalone-runtime -->
 <dependency>
     <groupId>org.evosuite</groupId>
     <artifactId>evosuite-standalone-runtime</artifactId>
@@ -42,8 +38,6 @@
   <artifactId>slf4j-simple</artifactId>
   <version>1.7.21</version>
 </dependency>
-
-
 
 </dependencies>
 <build>
